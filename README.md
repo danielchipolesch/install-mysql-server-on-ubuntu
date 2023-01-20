@@ -12,3 +12,10 @@ $ ``` SELECT host FROM information_schema.processlist WHERE ID = connection_id()
 ## Listening mysql-server port
 
 $ ``` SHOW GLOBAL VARIABLES LIKE 'port'; ```
+
+## Conectar ao servidor mysql
+$ ``` mysql -u root ```
+
+##  Uma vez conectado
+
+mysql> ``` ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'; ```
