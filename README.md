@@ -19,3 +19,7 @@ $ ``` mysql -u root ```
 ##  Uma vez conectado
 
 mysql> ``` ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password'; ```
+
+##  Nas próximas vezes
+
+$ ``` sudo mysql -u root -p ```
